@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Priority 1 \u2013 Restructure Shipping Mode Logistics",
+    "body": "'First Class' shows a late-delivery rate of 95.3%, which is +40.5 percentage points above the fleet average of 54.8%. Statistically, this relationship is unambiguous (\u03c7\u00b2 p = 0.0e+00, Cram\u00e9r's V = 0.457). Recommend auditing carrier contracts, adding a secondary carrier option, and piloting expedited handling protocols for this segment. Reducing its late rate to the fleet average would lower the overall late rate by an estimated 12.1 pp."
+  },
+  {
+    "title": "Priority 2 \u2013 Targeted SLA Review for Region",
+    "body": "'Central Africa' registers 58.0% late deliveries (+3.1 pp above average, Cram\u00e9r's V = 0.020). A focused SLA renegotiation and carrier scorecard process for this dimension can systematically surface the under-performing routes or partners driving this gap."
+  },
+  {
+    "title": "Deploy Early-Warning Predictive System",
+    "body": "The XGBoost model achieves 54.8% recall at detecting late deliveries before they occur, with 66.4% F1-score. Integrating this model into the order-management system to flag high-risk shipments at order-placement time enables proactive intervention (re-routing, carrier upgrade) rather than reactive damage control. Even a 20% conversion of flagged orders to on-time would reduce the overall late rate by ~11.0 pp."
+  },
+  {
+    "title": "Seasonal Capacity Pre-Planning",
+    "body": "Time-trend analysis reveals that late-delivery rates spike during peak seasons. Pre-negotiating surge capacity with carriers 8\u201312 weeks before high-demand periods, and setting conservative promised-delivery windows, can reduce customer-facing SLA breaches by an estimated 15\u201325% during peak months."
+  }
+]

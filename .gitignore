@@ -1,0 +1,40 @@
+# Large Data Files
+data/
+outputs/cleaned_data.csv
+*.csv
+
+# Model Artifacts (large binaries)
+outputs/models/*.pkl
+*.pkl
+
+# Python artifacts & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp files
+*.log
+scratch/
+tmp/

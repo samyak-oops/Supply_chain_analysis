@@ -1,0 +1,30 @@
+{
+  "overall": {
+    "file": "01_overall_late_rate.png",
+    "takeaway": "54.8% of all orders are delivered late — that's 98,977 shipments out of 180,519 total, representing a major operational risk and customer satisfaction issue."
+  },
+  "ship_mode": {
+    "file": "02_late_by_ship_mode.png",
+    "takeaway": "'First Class' has the highest late-delivery rate at 95.3%, well above the overall average of 54.8%. This mode is systematically under-resourced relative to demand and warrants immediate carrier negotiation or capacity reallocation."
+  },
+  "region": {
+    "file": "03_late_by_region.png",
+    "takeaway": "'Central Africa' has the worst late-delivery rate at 58.0%, pointing to potential capacity, carrier, or geographic challenges unique to that region that require targeted intervention."
+  },
+  "category": {
+    "file": "04_late_by_category.png",
+    "takeaway": "Among the top-volume categories, 'Accessories' leads with 57.0% late rate. Categories likely differ in handling complexity, supplier lead times, or sourcing geography."
+  },
+  "qty_discount": {
+    "file": "05_qty_discount_late.png",
+    "takeaway": "Order quantity and discount show nearly identical distributions for late vs on-time deliveries, confirming these alone are weak predictors of delay. Delay days (real minus scheduled) is the most discriminating numeric feature."
+  },
+  "time_trend": {
+    "file": "06_time_trend.png",
+    "takeaway": "Late delivery rates fluctuate over time; spikes aligned with peak seasons indicate carrier capacity is overwhelmed at predictable intervals, creating an opportunity for proactive seasonal surge planning."
+  },
+  "correlation": {
+    "file": "07_correlation_heatmap.png",
+    "takeaway": "Top features correlated with late delivery risk: delay_days, Days_for_shipping_real, Days_for_shipment_scheduled (|r| = 0.78, 0.40, 0.37). These will be the highest-value inputs for the predictive model."
+  }
+}

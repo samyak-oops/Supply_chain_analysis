@@ -1,0 +1,15 @@
+{
+  "late_risk": "Late_delivery_risk",
+  "delivery_status": "Delivery_Status",
+  "shipping_mode": "Shipping_Mode",
+  "order_date": "order_date_DateOrders",
+  "shipping_date": "shipping_date_DateOrders",
+  "days_scheduled": "Days_for_shipment_scheduled",
+  "days_real": "Days_for_shipping_real",
+  "delay_days": "delay_days",
+  "region": "Order_Region",
+  "market": "Market",
+  "category": "Category_Name",
+  "quantity": "Order_Item_Quantity",
+  "discount": "Order_Item_Discount"
+}

@@ -1,0 +1,477 @@
+{
+  "chi2_tests": {
+    "shipping_mode": {
+      "column": "Shipping_Mode",
+      "chi2": 37716.0425,
+      "p_value": 0.0,
+      "dof": 3,
+      "cramers_v": 0.4571,
+      "significant": true,
+      "late_rate_table": [
+        {
+          "Shipping_Mode": "First Class",
+          "Late_Rate_%": 95.32249946070324,
+          "Count": 27814
+        },
+        {
+          "Shipping_Mode": "Second Class",
+          "Late_Rate_%": 76.6327805542935,
+          "Count": 9737
+        },
+        {
+          "Shipping_Mode": "Same Day",
+          "Late_Rate_%": 45.74304200472425,
+          "Count": 35216
+        },
+        {
+          "Shipping_Mode": "Standard Class",
+          "Late_Rate_%": 38.071683124211155,
+          "Count": 107752
+        }
+      ]
+    },
+    "region": {
+      "column": "Order_Region",
+      "chi2": 74.9336,
+      "p_value": 1.08e-07,
+      "dof": 22,
+      "cramers_v": 0.0204,
+      "significant": true,
+      "late_rate_table": [
+        {
+          "Order_Region": "Central Africa",
+          "Late_Rate_%": 57.960644007155636,
+          "Count": 959
+        },
+        {
+          "Order_Region": "South Asia",
+          "Late_Rate_%": 56.26697710516104,
+          "Count": 8318
+        },
+        {
+          "Order_Region": "East Africa",
+          "Late_Rate_%": 55.93952483801296,
+          "Count": 1677
+        },
+        {
+          "Order_Region": "Western Europe",
+          "Late_Rate_%": 55.84861116234461,
+          "Count": 28341
+        },
+        {
+          "Order_Region": "South Of  Usa",
+          "Late_Rate_%": 55.77255871446229,
+          "Count": 553
+        },
+        {
+          "Order_Region": "Eastern Europe",
+          "Late_Rate_%": 55.66326530612245,
+          "Count": 1852
+        },
+        {
+          "Order_Region": "East Of Usa",
+          "Late_Rate_%": 55.66160520607375,
+          "Count": 6915
+        },
+        {
+          "Order_Region": "Southeast Asia",
+          "Late_Rate_%": 55.52992976202956,
+          "Count": 7280
+        },
+        {
+          "Order_Region": "Central Asia",
+          "Late_Rate_%": 55.33453887884268,
+          "Count": 3920
+        },
+        {
+          "Order_Region": "West Asia",
+          "Late_Rate_%": 55.28374105508404,
+          "Count": 3232
+        },
+        {
+          "Order_Region": "Us Center",
+          "Late_Rate_%": 55.24036011550875,
+          "Count": 9792
+        },
+        {
+          "Order_Region": "Central America",
+          "Late_Rate_%": 54.75459581525,
+          "Count": 10148
+        },
+        {
+          "Order_Region": "North Africa",
+          "Late_Rate_%": 54.51732673267327,
+          "Count": 14935
+        },
+        {
+          "Order_Region": "Southern Europe",
+          "Late_Rate_%": 54.38447672569187,
+          "Count": 7731
+        },
+        {
+          "Order_Region": "Eastern Asia",
+          "Late_Rate_%": 54.32692307692307,
+          "Count": 4045
+        },
+        {
+          "Order_Region": "South America",
+          "Late_Rate_%": 54.30867090726481,
+          "Count": 9539
+        },
+        {
+          "Order_Region": "Northern Europe",
+          "Late_Rate_%": 54.04411764705882,
+          "Count": 1157
+        },
+        {
+          "Order_Region": "Oceania",
+          "Late_Rate_%": 54.02049664958612,
+          "Count": 9431
+        },
+        {
+          "Order_Region": "West Of Usa",
+          "Late_Rate_%": 53.959714750406604,
+          "Count": 5887
+        },
+        {
+          "Order_Region": "Southern Africa",
+          "Late_Rate_%": 53.3275713050994,
+          "Count": 3696
+        },
+        {
+          "Order_Region": "Caribbean",
+          "Late_Rate_%": 53.077662899735515,
+          "Count": 6009
+        },
+        {
+          "Order_Region": "West Africa",
+          "Late_Rate_%": 52.84090909090909,
+          "Count": 7993
+        },
+        {
+          "Order_Region": "Canada",
+          "Late_Rate_%": 48.800834202294055,
+          "Count": 27109
+        }
+      ]
+    },
+    "market": {
+      "column": "Market",
+      "chi2": 8.6507,
+      "p_value": 0.0704,
+      "dof": 4,
+      "cramers_v": 0.0069,
+      "significant": false,
+      "late_rate_table": [
+        {
+          "Market": "Europe",
+          "Late_Rate_%": 55.207752925256706,
+          "Count": 11614
+        },
+        {
+          "Market": "Pacific Asia",
+          "Late_Rate_%": 55.04604944255937,
+          "Count": 50252
+        },
+        {
+          "Market": "Usca",
+          "Late_Rate_%": 54.800573665645956,
+          "Count": 51594
+        },
+        {
+          "Market": "Africa",
+          "Late_Rate_%": 54.58928878939211,
+          "Count": 41260
+        },
+        {
+          "Market": "Latam",
+          "Late_Rate_%": 54.355157576462375,
+          "Count": 25799
+        }
+      ]
+    },
+    "category": {
+      "column": "Category_Name",
+      "chi2": 42.8892,
+      "p_value": 0.718,
+      "dof": 49,
+      "cramers_v": 0.0154,
+      "significant": false,
+      "late_rate_table": [
+        {
+          "Category_Name": "Golf Bags & Carts",
+          "Late_Rate_%": 68.85245901639344,
+          "Count": 1780
+        },
+        {
+          "Category_Name": "Lacrosse",
+          "Late_Rate_%": 60.05830903790087,
+          "Count": 68
+        },
+        {
+          "Category_Name": "Pet Supplies",
+          "Late_Rate_%": 58.94308943089431,
+          "Count": 207
+        },
+        {
+          "Category_Name": "Cameras",
+          "Late_Rate_%": 58.108108108108105,
+          "Count": 632
+        },
+        {
+          "Category_Name": "Strength Training",
+          "Late_Rate_%": 57.65765765765766,
+          "Count": 67
+        },
+        {
+          "Category_Name": "As Seen On  Tv!",
+          "Late_Rate_%": 57.35294117647059,
+          "Count": 405
+        },
+        {
+          "Category_Name": "Music",
+          "Late_Rate_%": 57.14285714285714,
+          "Count": 423
+        },
+        {
+          "Category_Name": "Accessories",
+          "Late_Rate_%": 56.96629213483146,
+          "Count": 592
+        },
+        {
+          "Category_Name": "Fitness Accessories",
+          "Late_Rate_%": 56.957928802588995,
+          "Count": 13729
+        },
+        {
+          "Category_Name": "Books",
+          "Late_Rate_%": 56.54320987654321,
+          "Count": 12487
+        },
+        {
+          "Category_Name": "Women'S Clothing",
+          "Late_Rate_%": 56.46153846153846,
+          "Count": 271
+        },
+        {
+          "Category_Name": "Boxing & Mma",
+          "Late_Rate_%": 56.26477541371159,
+          "Count": 652
+        },
+        {
+          "Category_Name": "Golf Gloves",
+          "Late_Rate_%": 56.26168224299065,
+          "Count": 24551
+        },
+        {
+          "Category_Name": "Hunting & Shooting",
+          "Late_Rate_%": 56.13636363636364,
+          "Count": 442
+        },
+        {
+          "Category_Name": "Electronics",
+          "Late_Rate_%": 56.083650190114064,
+          "Count": 431
+        },
+        {
+          "Category_Name": "Crafts",
+          "Late_Rate_%": 55.99173553719008,
+          "Count": 484
+        },
+        {
+          "Category_Name": "Health And Beauty",
+          "Late_Rate_%": 55.80110497237569,
+          "Count": 483
+        },
+        {
+          "Category_Name": "Tennis & Racquet",
+          "Late_Rate_%": 55.79268292682927,
+          "Count": 3156
+        },
+        {
+          "Category_Name": "Garden",
+          "Late_Rate_%": 55.78512396694215,
+          "Count": 17325
+        },
+        {
+          "Category_Name": "Trade-In",
+          "Late_Rate_%": 55.64681724845995,
+          "Count": 309
+        },
+        {
+          "Category_Name": "Golf Shoes",
+          "Late_Rate_%": 55.534351145038165,
+          "Count": 484
+        },
+        {
+          "Category_Name": "Sporting Goods",
+          "Late_Rate_%": 55.46218487394958,
+          "Count": 1201
+        },
+        {
+          "Category_Name": "Girls' Apparel",
+          "Late_Rate_%": 55.28726061615321,
+          "Count": 441
+        },
+        {
+          "Category_Name": "Basketball",
+          "Late_Rate_%": 55.223880597014926,
+          "Count": 61
+        },
+        {
+          "Category_Name": "Baseball & Softball",
+          "Late_Rate_%": 55.22151898734177,
+          "Count": 1475
+        },
+        {
+          "Category_Name": "Consumer Electronics",
+          "Late_Rate_%": 55.22041763341067,
+          "Count": 1070
+        },
+        {
+          "Category_Name": "Shop By Sport",
+          "Late_Rate_%": 55.15294974508376,
+          "Count": 524
+        },
+        {
+          "Category_Name": "Toys",
+          "Late_Rate_%": 55.009451795841215,
+          "Count": 362
+        },
+        {
+          "Category_Name": "Cleats",
+          "Late_Rate_%": 54.97128426540671,
+          "Count": 614
+        },
+        {
+          "Category_Name": "Fishing",
+          "Late_Rate_%": 54.926406926406926,
+          "Count": 440
+        },
+        {
+          "Category_Name": "Water Sports",
+          "Late_Rate_%": 54.80694980694981,
+          "Count": 19298
+        },
+        {
+          "Category_Name": "Indoor/Outdoor Games",
+          "Late_Rate_%": 54.74660586589284,
+          "Count": 384
+        },
+        {
+          "Category_Name": "Golf Balls",
+          "Late_Rate_%": 54.57627118644067,
+          "Count": 343
+        },
+        {
+          "Category_Name": "Women'S Apparel",
+          "Late_Rate_%": 54.55669122890421,
+          "Count": 208
+        },
+        {
+          "Category_Name": "Camping & Hiking",
+          "Late_Rate_%": 54.534197683735165,
+          "Count": 22246
+        },
+        {
+          "Category_Name": "Cardio Equipment",
+          "Late_Rate_%": 54.496676543605346,
+          "Count": 283
+        },
+        {
+          "Category_Name": "Men'S Footwear",
+          "Late_Rate_%": 54.48619976625011,
+          "Count": 434
+        },
+        {
+          "Category_Name": "Soccer",
+          "Late_Rate_%": 54.347826086956516,
+          "Count": 492
+        },
+        {
+          "Category_Name": "Men'S Clothing",
+          "Late_Rate_%": 54.32692307692307,
+          "Count": 10984
+        },
+        {
+          "Category_Name": "Video Games",
+          "Late_Rate_%": 54.295942720763726,
+          "Count": 138
+        },
+        {
+          "Category_Name": "Dvds",
+          "Late_Rate_%": 53.62318840579711,
+          "Count": 357
+        },
+        {
+          "Category_Name": "Women'S Golf Clubs",
+          "Late_Rate_%": 53.591160220994475,
+          "Count": 111
+        },
+        {
+          "Category_Name": "Hockey",
+          "Late_Rate_%": 53.583061889250814,
+          "Count": 328
+        },
+        {
+          "Category_Name": "Kids' Golf Clubs",
+          "Late_Rate_%": 53.385416666666664,
+          "Count": 529
+        },
+        {
+          "Category_Name": "Children'S Clothing",
+          "Late_Rate_%": 53.37423312883436,
+          "Count": 974
+        },
+        {
+          "Category_Name": "Baby",
+          "Late_Rate_%": 52.65700483091788,
+          "Count": 838
+        },
+        {
+          "Category_Name": "Cds",
+          "Late_Rate_%": 52.02952029520295,
+          "Count": 15540
+        },
+        {
+          "Category_Name": "Golf Apparel",
+          "Late_Rate_%": 51.92743764172335,
+          "Count": 21035
+        },
+        {
+          "Category_Name": "Computers",
+          "Late_Rate_%": 50.678733031674206,
+          "Count": 650
+        },
+        {
+          "Category_Name": "Men'S Golf Clubs",
+          "Late_Rate_%": 47.70318021201413,
+          "Count": 181
+        }
+      ]
+    }
+  },
+  "root_causes": [
+    {
+      "rank": 1,
+      "dimension": "shipping_mode",
+      "worst_value": "First Class",
+      "worst_rate_pct": 95.32249946070324,
+      "overall_rate_pct": 54.83,
+      "gap_pp": 40.49,
+      "cramers_v": 0.4571,
+      "p_value": 0.0
+    },
+    {
+      "rank": 2,
+      "dimension": "region",
+      "worst_value": "Central Africa",
+      "worst_rate_pct": 57.960644007155636,
+      "overall_rate_pct": 54.83,
+      "gap_pp": 3.13,
+      "cramers_v": 0.0204,
+      "p_value": 1.08e-07
+    }
+  ],
+  "overall_late_rate_pct": 54.83
+}
